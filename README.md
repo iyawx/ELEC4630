@@ -13,4 +13,5 @@ Run
 ```
 python3 recongnize_faces_in_pictures.py
 python3 identify_and_draw_boxes_on_faces.py
+python3 find_facial_features_in_picture.py
 ```
