@@ -14,4 +14,5 @@ Run
 python3 recognize_faces_in_pictures.py
 python3 identify_and_draw_boxes_on_faces.py
 python3 find_facial_features_in_picture.py
+python3 roc_curve_plot_test.py
 ```
