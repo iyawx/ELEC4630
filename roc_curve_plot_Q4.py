@@ -32,7 +32,7 @@ for img in glob.iglob("*.jpg"):
         # Or instead, use the known face with the smallest distance to the new face
         face_distances = face_recognition.face_distance(known_faces, unknown_face_encoding)
 
-        if img == "Me_1.jpg" or img == "Me_2.jpg" or img == "Me_3.jpg" or img == "Me_4.jpg" or img == "Me_5.jpg" or img == "Me_6.jpg" or img == "Me_7.jpg":
+        if img == "Me_1.jpg" or img == "Me_2.jpg" or img == "Me_3.jpg" or img == "Me_4.jpg" or img == "Me_5.jpg" or img == "Me_6.jpg" or img == "Me_7.jpg" or img == "Me_8.jpg":
             actual = np.block([actual, 1])
             predictions = np.block([predictions, 1-face_distances])
         else:
